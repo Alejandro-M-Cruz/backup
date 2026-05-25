@@ -1,0 +1,6 @@
+[Unit]
+Description=Rclone Google Drive Backup
+
+[Service]
+Type=oneshot
+ExecStart=/home/ale/Projects/backup/scripts/gdrive-backup.sh
