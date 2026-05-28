@@ -20,6 +20,5 @@ for LOCAL_DIR in "${!LOCAL_TO_REMOTE[@]}"; do
     --contimeout 1m \
     --log-file "$LOG_FILE" \
     --log-file-max-size 100M \
-    --exclude-from "$IGNORE_FILE" \
-    --delete-excluded
+    --exclude-from "$IGNORE_FILE"
 done
