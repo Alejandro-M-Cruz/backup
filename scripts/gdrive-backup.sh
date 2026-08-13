@@ -7,6 +7,7 @@ LOG_FILE="/home/ale/Logs/backup/gdrive_backup.log"
 declare -A LOCAL_TO_REMOTE=(
   ["/home/ale/Documents"]="gdrive:Backup/Documents"
   ["/home/ale/Pictures"]="gdrive:Backup/Pictures"
+  ["/home/ale/Music"]="gdrive:Backup/Music"
 )
 
 for LOCAL_DIR in "${!LOCAL_TO_REMOTE[@]}"; do
